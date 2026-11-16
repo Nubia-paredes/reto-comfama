@@ -1,0 +1,62 @@
+*.body{
+    font-family: "Times New Roman", Times, serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 20px;
+    padding: 0;
+    line-height: 1.2;
+}
+
+/* Encabezados y títulos */
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Barra de selección de estilos */
+.style-switcher {
+    margin-bottom: 25px;
+}
+
+.style-switcher a {
+    color: #0000ee;
+    text-decoration: underline;
+    margin-right: 5px; /* Enlaces muy juntos como en la imagen */
+    font-size: 0.9em;
+}
+
+/* Secciones de contenido (HTML, CSS, JS) */
+.course-section {
+    margin-bottom: 25px;
+}
+
+.course-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.course-section p {
+    margin-bottom: 8px;
+}
+
+/* Botones estándar nativos */
+button {
+    font-family: inherit;
+    font-size: 0.85em;
+    background-color: #f0f0f0;
+    color: #000000;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e5e5e5;
+    border-color: #4f4f4f;
+}
