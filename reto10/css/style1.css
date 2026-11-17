@@ -1,0 +1,117 @@
+/* Configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+/* Encabezado principal */
+.encabezado {
+    background-color: #171717;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+/* Título */
+.encabezado h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* Subtítulo */
+.encabezado p {
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+/* MENÚ DE NAVEGACIÓN */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #aaaaaa;
+}
+/* CONTENEDOR PRINCIPAL */
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    padding: 35px 25px;
+}
+
+/* TARJETAS */
+.tarjeta {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* Diseño de cada tarjeta */
+.tarjeta {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1 1 280px;
+    max-width: 400px;
+    min-height: 220px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* Títulos de las tarjetas */
+.tarjeta h2 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+/* Párrafos */
+.tarjeta p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.tarjeta button {
+    background-color: #171717;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.tarjeta button:hover {
+    background-color: #444444;
+}

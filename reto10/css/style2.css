@@ -1,0 +1,126 @@
+/* CONFIGURACIÓN GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CUERPO DE LA PÁGINA */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ENCABEZADO */
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-color: #79c8e9;
+    padding: 35px 25px;
+}
+
+.encabezado h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.encabezado p {
+    font-size: 14px;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 25px;
+    background-color: #101044;
+    padding: 18px 25px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #79c8e9;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 12px;
+    padding: 20px;
+}
+
+/* TARJETAS */
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+
+    padding: 25px;
+    width: 100%;
+    min-height: 125px;
+}
+
+/* TÍTULOS */
+.tarjeta h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* DESCRIPCIONES */
+.tarjeta p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+/* BOTONES */
+.tarjeta button {
+    background-color: #1762bd;
+    color: white;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 9px 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+.tarjeta button:hover {
+    background-color: #10478d;
+}
+
+/* PIE DE PÁGINA */
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #dce1e8;
+    padding: 22px;
+    font-size: 12px;
+}

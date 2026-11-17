@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Programación</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Encabezado principal -->
+        <header>
+            <h1>Aprende Programación</h1>
+            <p class="subtitle">Descubre el mundo del desarrollo web</p>
+        </header>
+
+        <!-- Selector de estilos central -->
+        <nav class="style-switcher">
+            <a href="#">Sin estilo</a>
+            <a href="#">Estilo1</a>
+            <a href="#">Estilo2</a>
+            <a href="#">Estilo3</a>
+        </nav>
+
+        <!-- Bloque contenedor de tecnologías -->
+        <main class="cards-grid">
+            
+            <!-- Tarjeta HTML -->
+            <article class="card">
+                <div>
+                    <h2>HTML</h2>
+                    <p>HTML permite crear la estructura y el contenido de una página web.</p>
+                </div>
+                <button>Aprender HTML</button>
+            </article>
+
+            <!-- Tarjeta CSS -->
+            <article class="card">
+                <div>
+                    <h2>CSS</h2>
+                    <p>CSS permite modificar colores, tamaños, espacios, fuentes y la apariencia de una página web.</p>
+                </div>
+                <button>Aprender CSS</button>
+            </article>
+
+            <!-- Tarjeta JavaScript -->
+            <article class="card">
+                <div>
+                    <h2>JavaScript</h2>
+                    <p>JavaScript permite agregar interactividad y comportamiento a nuestras páginas web.</p>
+                </div>
+                <button>Aprender JavaScript</button>
+            </article>
+
+        </main>
+    </div>
+
+    <!-- Pie de página con derechos -->
+    <footer>
+        Mi primera página web - 2026
+    </footer>
+
+</body>
+</html>

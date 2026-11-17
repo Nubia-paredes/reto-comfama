@@ -1,0 +1,125 @@
+/* Estilos Generales y Fondo */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 50px;
+            display: flex;
+            flex-direction: flex row ;
+            min-height: 100vh;
+            align-items: flex-start;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        /* Contenedor Principal */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            text-align: center;
+            padding: 40px 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Encabezado */
+        h1 {
+            color: #00e5ff;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            color: #b0bec5;
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            text-align: right;
+            justify-content: space-between;
+        }
+
+        /* Menú de Estilos (Navbar Superior) */
+        .style-switcher {
+            margin-bottom: 50px;
+        }
+
+        .style-switcher a {
+            color: #00e5ff;
+            text-decoration: none;
+            margin:0  15px;
+            font-size: 1rem;
+            transition: opacity 0.2s;
+        }
+
+        .style-switcher a:hover {
+            opacity: 0.8;
+        }
+
+        /* Sección de Tarjetas (Grid) */
+        .cards-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        /* Tarjetas Individuales */
+        .card {
+            background-color: #0f0f0f;
+            border: 1px solid #00e5ff;
+            border-radius: 12px;
+            padding: 6px 100px;
+            flex: 1;
+            text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            min-height: 1%;
+            box-shadow: 0 4px 15px rgba(0, 229, 255, 0.05);
+        }
+
+        .card h2 {
+            color: #00e5ff;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        .card p {
+            color: #e0e0e0;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 25px;
+            flex-grow: 1;
+        }
+
+        /* Botones */
+        .card button {
+            background-color: aqua;
+            color: #00e5ff;
+            border: 1px solid #00e5ff;
+            border-radius: 6px;
+            padding: 10px 20px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            width: fit-content;
+            transition: all 0.3s ease;
+        }
+
+        .card button:hover {
+            background-color: #00e5ff;
+            color: #080808;
+        }
+
+        /* Pie de Página */
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            color: #b0bec5;
+            font-size: 0.9rem;
+            border-top: 1px solid #222;
+        }
